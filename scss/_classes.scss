@@ -1,0 +1,169 @@
+// CLASSES
+
+.clearfix{
+	@include clearfix();
+}
+.clearall{
+	@include clearall();
+}
+.block{ 
+	display: block !important; 
+}
+.inline-block{ 
+	display: inline-block !important; 
+}
+.inline{ 
+	display: inline !important; 
+}
+.disabled{
+  pointer-events: none !important;
+}
+
+.ht-pos-sta{	position: static; }
+.ht-pos-rel{	position: relative; }
+.ht-pos-abs{	position: absolute; }
+
+
+.ht-bgcover{ 
+	@include background-size(cover); 
+	background-position: 50% 50%; 
+}
+.ht-oneline{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ht-nowrap{
+	white-space: nowrap;
+}
+.ht-noscroll{ 
+  overflow: hidden;
+}
+
+.ht-border{
+	border: 1px solid #ddd;
+}	
+.ht-bdt0{
+	border-top: 0 !important;
+}
+.ht-bdb0{
+	border-bottom: 0 !important;
+}
+.ht-bdl0{
+	border-left: 0 !important;
+}
+.ht-bdr0{
+	border-right: 0 !important;
+}
+
+// margin
+.ht-mgt0{		margin-top: 0px 	!important; }
+.ht-mgt4{		margin-top: 4px 	!important; }
+.ht-mgt8{		margin-top: 8px 	!important; }
+.ht-mgt12{	margin-top: 12px 	!important; }
+.ht-mgt16{	margin-top: 16px 	!important; }
+.ht-mgt20{	margin-top: 20px 	!important; }
+.ht-mgt24{	margin-top: 24px 	!important; }
+
+.ht-mgb0{		margin-bottom: 0px 		!important; }
+.ht-mgb4{		margin-bottom: 4px 		!important; }
+.ht-mgb8{		margin-bottom: 8px 		!important; }
+.ht-mgb12{	margin-bottom: 12px 	!important; }
+.ht-mgb16{	margin-bottom: 16px 	!important; }
+.ht-mgb20{	margin-bottom: 20px 	!important; }
+.ht-mgb24{	margin-bottom: 24px 	!important; }
+
+.ht-mgl0{		margin-left: 0px 		!important; }
+.ht-mgl4{		margin-left: 4px 		!important; }
+.ht-mgl8{		margin-left: 8px 		!important; }
+.ht-mgl12{	margin-left: 12px 	!important; }
+.ht-mgl16{	margin-left: 16px 	!important; }
+.ht-mgl20{	margin-left: 20px 	!important; }
+.ht-mgl24{	margin-left: 24px 	!important; }
+
+.ht-mgr0{		margin-right: 0px 		!important; }
+.ht-mgr4{		margin-right: 4px 		!important; }
+.ht-mgr8{		margin-right: 8px 		!important; }
+.ht-mgr12{	margin-right: 12px 	!important; }
+.ht-mgr16{	margin-right: 16px 	!important; }
+.ht-mgr20{	margin-right: 20px 	!important; }
+.ht-mgr24{	margin-right: 24px 	!important; }
+
+
+// padding
+.ht-pdt0{		padding-top: 0px 	!important; }
+.ht-pdt4{		padding-top: 4px 	!important; }
+.ht-pdt8{		padding-top: 8px 	!important; }
+.ht-pdt12{	padding-top: 12px 	!important; }
+.ht-pdt16{	padding-top: 16px 	!important; }
+.ht-pdt20{	padding-top: 20px 	!important; }
+.ht-pdt24{	padding-top: 24px 	!important; }
+
+.ht-pdb0{		padding-bottom: 0px 		!important; }
+.ht-pdb4{		padding-bottom: 4px 		!important; }
+.ht-pdb8{		padding-bottom: 8px 		!important; }
+.ht-pdb12{	padding-bottom: 12px 	!important; }
+.ht-pdb16{	padding-bottom: 16px 	!important; }
+.ht-pdb20{	padding-bottom: 20px 	!important; }
+.ht-pdb24{	padding-bottom: 24px 	!important; }
+
+.ht-pdl0{		padding-left: 0px 		!important; }
+.ht-pdl4{		padding-left: 4px 		!important; }
+.ht-pdl8{		padding-left: 8px 		!important; }
+.ht-pdl12{	padding-left: 12px 	!important; }
+.ht-pdl16{	padding-left: 16px 	!important; }
+.ht-pdl20{	padding-left: 20px 	!important; }
+.ht-pdl24{	padding-left: 24px 	!important; }
+
+.ht-pdr0{		padding-right: 0px 		!important; }
+.ht-pdr4{		padding-right: 4px 		!important; }
+.ht-pdr8{		padding-right: 8px 		!important; }
+.ht-pdr12{	padding-right: 12px 	!important; }
+.ht-pdr16{	padding-right: 16px 	!important; }
+.ht-pdr20{	padding-right: 20px 	!important; }
+.ht-pdr24{	padding-right: 24px 	!important; }
+
+
+// text
+.ht-fw400{	font-weight: 400; }
+.ht-fw500{	font-weight: 500; }
+.ht-fw600{	font-weight: 600; }
+.ht-fw700{	font-weight: 700; }
+
+.ht-fz11{	line-height: 15px; font-size: 11px !important; }
+.ht-fz12{	line-height: 16px; font-size: 12px !important; }
+.ht-fz13{	line-height: 18px; font-size: 13px !important; }
+.ht-fz14{	line-height: 19px; font-size: 14px !important; }
+.ht-fz16{	line-height: 20px; font-size: 16px !important; }
+.ht-fz18{	line-height: 22px; font-size: 18px !important; }
+
+.ht-va-top{ vertical-align: top !important; }
+.ht-va-mid{ vertical-align: middle !important; }
+.ht-va-bot{ vertical-align: bottom !important; }
+
+
+// color
+.ht-c333{	color: #333; }
+.ht-c555{	color: #555; }
+.ht-c777{	color: #777; }
+.ht-c999{	color: #999; }
+.ht-c-red{ 			color: $red500; }
+.ht-c-red500 {	color: $red500; }
+.ht-c-facebook{ 		color: $facebook-color !important; }
+.ht-c-googleplus{ 	color: $googleplus-color !important; }
+.ht-c-youtube{ 			color: $youtube-color !important; }
+.ht-c-twitter{ 			color: $twitter-color !important; }
+.ht-c-instagram{ 		color: $instagram-color !important; }
+
+
+// background-color
+.ht-bgc-w{ 				background-color: #fff !important; }
+.ht-bgc-grey50{ 	background-color: $grey50 !important; }
+.ht-bgc-grey100{ 	background-color: $grey100 !important; }
+.ht-bgc-grey200{ 	background-color: $grey200 !important; }
+.ht-bgc-grey300{ 	background-color: $grey300 !important; }
+.ht-bgc-grey400{ 	background-color: $grey400 !important; }
+
+
+

@@ -1,0 +1,20 @@
+header
+	top-header
+		container
+			logo
+			page-menu
+				main menu + submenu
+					main menu
+					submenu sẽ collapse ở trên mobile
+				đăng nhập (mobile)
+				ngôn ngữ (mobile)
+			đăng nhập (d)
+			hotline (m +_d)
+			ngôn ngữ (d)
+			nút toggle (m)
+
+	main-header
+		container
+			category-menu
+			search + toggle search (m)
+			button
