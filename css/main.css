@@ -889,7 +889,6 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     display: flex;
 }
 #siteHeader .sh_main-menu ul.control-action > li > a {
-    padding: 4px 11px 0;
 }
 #siteHeader .sh_main-menu ul.control-action > li > a .ht-icon {
     display: block;
@@ -1700,7 +1699,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
 .btn-pro-detail {
     margin-top: -5px;
     float: right;
-    font-weight: 500;
+    font-weight: 600;
     right: 0px;
     position: absolute;
     background: #fff000;
@@ -5451,9 +5450,15 @@ ul.lv2-productdesign li.item0lv2 a {
 .ht-sidebar-card ul.sidebar-cat-list > li > ul .lv2-enduserli{
       margin: 5px 0px 0px 33px;
 }
+#siteHeader .sh_main-menu ul.head-login{
+  margin: 0px 12px;
+}
 .content-enduser .ht-product-card-list{
-  background:#f4f7fc;
+
   padding: 24px;
+}
+.eduser-42{
+      padding: 7px 19px 0px 8px;
 }
 .post-action .btn-nofi{     
   background: #fff;

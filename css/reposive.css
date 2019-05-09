@@ -509,6 +509,17 @@
 /*mobile*/
 
 @media (max-width: 767px) {
+.eduser-42 .panel-heading{
+    background-image: none;
+}
+.right-notification .dropdown-menu{
+    width: 300px;
+    left: 0;
+}
+/*.text-left, .text-right{
+    text-align: center;
+    float: none;
+}*/
 .eduser-album .product-album{
     width: 100%;
 }
@@ -543,7 +554,7 @@
     display: none;
 }
 .left-enduser .card-header .user-title{
-    color: #fff;
+    color: #2dbeb3;
 }
 .left-enduser .card-header .post-meta{
     color: #fff;
@@ -578,24 +589,24 @@
     bottom: 0px;
     left: 0px;
     width: 100%;
-    z-index: 1;
+    z-index: 9;
     background: rgb(58, 96, 125);
  
 }
 .qa-enduser{
     display: none;
 }
-.pa-22{
-    padding: 22px 20px;
+.pa-12{
+       padding: 17px 15px;/
     
 }
 .category-user .ht-sidebar-collapse-toggle i {
     position: absolute;
-    top: 12px;
-    right: 12px;
+    top: 20px;
+    right: 20px;
     padding: 0 4px;
     line-height: 20px;
-    font-size: 18px;
+    font-size: 25px;
     color: #fff;
 }
 .home-carousel .owl-carousel .owl-item{
@@ -718,7 +729,10 @@
 }
 
 .content-enduser .ht-product-card-list{
-    padding:10px;
+    padding:0;
+}
+.eduser-42{
+    padding: 0;
 }
 .avt-right-ttc{
     margin-top: 20px;
