@@ -889,6 +889,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     display: flex;
 }
 #siteHeader .sh_main-menu ul.control-action > li > a {
+    padding: 4px 7px 0;
 }
 #siteHeader .sh_main-menu ul.control-action > li > a .ht-icon {
     display: block;
