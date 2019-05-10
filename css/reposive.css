@@ -724,8 +724,15 @@
     height: auto;
 }
 .right-notification{
-   padding: 10px 0px;
-    margin: 0px 35px 0px 0px;
+   padding: 0px 0px;
+    margin: 0;
+    line-height: 10px;
+    display: block;
+    text-align: center;
+}
+.enduser-basicinfor .tt-user{
+    margin: 27px 0px 26px;
+    height: 293px;
 }
 
 .content-enduser .ht-product-card-list{
@@ -1394,6 +1401,9 @@ ul.slick-dots{ opacity: 0;}
 }
 .product_actions .pri3-btn{
     line-height: 10px;
+}
+.ht-sidebar-card ul.sidebar-cat-list > li > a .fa{
+   color: #fff;
 }
 }
 /*end mobile*/

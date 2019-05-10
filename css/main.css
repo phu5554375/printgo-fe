@@ -5449,7 +5449,7 @@ ul.lv2-productdesign li.item0lv2 a {
 .ht-sidebar-card ul.sidebar-cat-list > li.opened > a .icon-view-more { -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg); }
 .ht-sidebar-card ul.sidebar-cat-list > li.opened > ul { max-height: 9999px; }
 .ht-sidebar-card ul.sidebar-cat-list > li > ul .lv2-enduserli{
-      margin: 5px 0px 0px 33px;
+      margin: 5px 0px 0px 50px;
 }
 #siteHeader .sh_main-menu ul.head-login{
   margin: 0px 12px;
@@ -7607,7 +7607,15 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
     margin: 0px 0px 18px;
     font-size: 15px;
 }
-
+.bt-modal2{
+    background: url(../img/modal1.png) no-repeat;
+    padding: 27px;
+    background-size: 100% 87%;
+    margin-top: -28px;
+}
+.ht-news-leftct .panel-group {
+    margin-bottom: 65px;
+}
 #cate-scroll{
   height: 326px;
   overflow: auto;
@@ -7627,4 +7635,20 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
 {
   background-color: #3cbeb3;
   border: 2px solid #2dbeb3;
+}
+.fa-sign-out-alt:before {
+    content: "\f2f5";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+.ht-sidebar-card ul.sidebar-cat-list > li > a .fa{
+   color: #676767;
+    font-size: 15px;
+    margin-left: 12px;
+    line-height: 19px;
+}
+.ht-sidebar-card ul.sidebar-cat-list > li > a .name-list{
+  padding-left: 44px;
 }
