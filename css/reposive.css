@@ -572,6 +572,15 @@
 /*mobile*/
 
 @media (max-width: 767px) {
+.ht-sidebar-card ul.sidebar-cat-list > li > a .name-list{
+    padding-left: 55px;
+}
+.slup-dashboard .ht-sidebar-card .sidebar-cat-list{
+    margin: 0px 0px 0px -8px;
+}
+.left-enduser .ht-sidebar-card ul.sidebar-cat-list > li > ul .lv2-enduserli{
+    margin: 5px 0px 0px 57px;
+}
 .seller-portrait{
     box-shadow: 0px 0px 13px #9f9f9f70; 
 }
@@ -597,8 +606,8 @@
     float: left;
 }
 .slup-dashboard .single-tags-label{
-    top: 2px;
-    right: 0;
+        top: -10px;
+    left: 17px;
 }
 /*.left-slup .ht-sidebar-card ul.sidebar-cat-list > li > a {
     color: #000;
