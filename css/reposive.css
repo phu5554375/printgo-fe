@@ -196,6 +196,65 @@
 
 /*table*/
 @media (min-width: 768px) and (max-width: 991px) {
+.category-user .ht-sidebar-collapse-toggle {
+    display: block;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: #3a607d;
+    border: 0;
+    z-index: 10;
+    padding: 14px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    color: #ffffff;
+    outline: none;
+    position: fixed;
+}
+.left-enduser .card-header .user-title {
+    color: #2dbeb3;
+}
+.left-enduser .card-header .post-meta {
+    color: #fff;
+}
+.category-user .ht-sidebar-collapse-toggle i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 0 4px;
+    line-height: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+.left-enduser .navbar-collapse {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9;
+    background: rgb(58, 96, 125);
+}
+.wait-eduser .wait-btn-eduser{
+    font-size: 12px;
+}
+.wait-eduser .yep-eduser{
+    font-size: 12px;
+}
+.pa-12 {
+    padding: 17px 15px;
+}
+.left-enduser .user-desktop {
+    display: none;
+}
+.qa-enduser {
+    display: none;
+}
+.ht-sidebar-card ul.sidebar-cat-list > li > a {
+    color: #fff;
+}
 .ht-product-card .product-image .image-wrap{
         height: 124px;
 }
