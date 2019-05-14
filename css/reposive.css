@@ -1565,5 +1565,8 @@ ul.slick-dots{ opacity: 0;}
     padding-bottom: 9px;
     padding-top: 10px;
 }
+.ht-product-card .product-image .image-wrap{
+    height: 315px;
+}
 }
 /*end mobile*/
