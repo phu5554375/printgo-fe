@@ -3580,8 +3580,10 @@ top: 0;
 .title-why-cate h3{
     text-transform: uppercase;
     font-weight: bold;
-    line-height: 2px;
-    margin-bottom: 33px;
+    font-size: 23px;
+    line-height: 31px;
+    margin: 0;
+    margin-bottom: 5px;
 }
 .text-why-cate{ 
     text-align: justify;
@@ -7665,7 +7667,7 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
     margin-bottom: 65px;
 }
 #cate-scroll{
-  height: 326px;
+  height: 302px;
   overflow: auto;
   padding: 0px 10px 0px 0px;
 }

@@ -1568,5 +1568,8 @@ ul.slick-dots{ opacity: 0;}
 .ht-product-card .product-image .image-wrap{
     height: 315px;
 }
+.btn-why-cate .btn2-why-cate{
+        padding: 6px 13px 6px 17px;
+}
 }
 /*end mobile*/
