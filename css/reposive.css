@@ -196,6 +196,17 @@
 
 /*table*/
 @media (min-width: 768px) and (max-width: 991px) {
+#news-detail-z1 .upload-cate .item-up {
+    background: url(../img/2.1_03.png) no-repeat;
+    width: 101%;
+    height: 119px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+.btn-cmt{
+    width: 100%;
+
+}
 .category-user .ht-sidebar-collapse-toggle {
     display: block;
     width: 100%;
@@ -585,6 +596,9 @@
 } 
 /*mobile*/
 @media (max-width: 767px) {
+.product-news-ct .product-news-detail{
+    margin: 0;
+}
 .bt-print-pd .form-group{
     width: 100%;
 }
@@ -1570,6 +1584,16 @@ ul.slick-dots{ opacity: 0;}
 }
 .btn-why-cate .btn2-why-cate{
         padding: 6px 13px 6px 17px;
+}
+.product-news-detail{
+    width: 100%;
+    padding-bottom: 19px;
+}
+.title-product-news{
+        padding: 73px 0px 24px;
+}
+#content-news-detail .ht-card{
+    padding: 16px 0px;
 }
 }
 /*end mobile*/
