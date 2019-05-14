@@ -1615,5 +1615,8 @@ ul.slick-dots{ opacity: 0;}
 #product-dx .ht-product-card{
     margin: 0;
 }
+.left-content-fe .text-content img{
+    object-fit: contain;
+}
 }
 /*end mobile*/
