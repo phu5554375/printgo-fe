@@ -1180,6 +1180,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     font-size: 23px;
     font-weight: bold;
     color: #333;
+
 }
 .title-chan {
     background: url(../img/chan-hong.jpg)no-repeat;
@@ -7816,4 +7817,13 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
 }
 .bt-4new:last-child .bt-new-end{
   border: 0;
+}
+.pay-ment{
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04)
+}
+.pay-ment .input-group .form-control{
+  width: 100%;
+}
+.pay-ment .input-group {
+  width: 100%;
 }

@@ -355,7 +355,11 @@
 .product-pri-cate{
     width: 33%;
 }
-#right-head{background: #cccccc45;padding: 20px;}
+#right-head{
+    background: #cccccc45;
+    padding: 20px;
+    margin: 9px 0px 0px;
+}
 #siteHeader .sh_main-menu ul.control-action {
     width: 100%;
     text-align: center;
