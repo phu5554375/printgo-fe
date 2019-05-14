@@ -1595,5 +1595,15 @@ ul.slick-dots{ opacity: 0;}
 #content-news-detail .ht-card{
     padding: 16px 0px;
 }
+#news-detail-z1 .upload-cate .item-up {
+    background: url(../img/2.1_03.png) no-repeat;
+    width: 100%;
+    height: 76px;
+    background-size: contain;
+}
+.btn-cmt{
+    width: 100%;
+
+}
 }
 /*end mobile*/
