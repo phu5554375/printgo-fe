@@ -3172,6 +3172,15 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
 .item-new1 .icon1{ 
   color: #2dbeb3 
 }
+.item-new1 .fa-clock{
+  color: #2dbeb3
+}
+.item-new2 .fa-clock{
+  color: #ff3e89
+}
+.item-new3 .fa-clock{
+  color: #1291d2
+}
 .item-new2 .icon2{ 
   color: #ff3e89 
 }
