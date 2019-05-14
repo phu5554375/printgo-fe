@@ -2049,6 +2049,11 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     width: 31.333333%;
     float: left;
 }
+.product-z2 .ht-product-card.on-list-05-column {
+    margin-bottom: 19px;
+    width: 31.333333%;
+    float: left;
+}
 
 /* line 259, ../scss/_card.scss */
 .ht-product-card.on-list-05-column .product-detail .pro-price {
@@ -3163,12 +3168,13 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
 }
 
 .date-bt-4{
-    margin: 19px 45px 19px 1px;
+       margin: 16px 41px 16px 1px;
 }
 .bt-4new .card-content{
-    margin: 8px 25px; 
+    margin: 11px 25px; 
     border-bottom: 1px solid #ccc;
 }
+
 .bt-4new .card-content .news-title{
     padding: 5px;
     margin: 0;
@@ -7806,4 +7812,7 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
     border-radius: 50%;
     color: #ccc;
     border: 1px solid #ccc;
+}
+.bt-4new:last-child .bt-new-end{
+  border: 0;
 }

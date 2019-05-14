@@ -1058,6 +1058,7 @@
 .content-fedback .right-cmt-product{
     width: 100%;
     padding: 0;
+    margin-top: 15px;
     line-height: 32px;
 }
 .block-chat{
@@ -1604,6 +1605,15 @@ ul.slick-dots{ opacity: 0;}
 .btn-cmt{
     width: 100%;
 
+}
+.key-fo .text-left{
+    text-align: center;
+}
+.key-fo .text-right{
+    text-align: center;
+}
+#product-dx .ht-product-card{
+    margin: 0;
 }
 }
 /*end mobile*/
