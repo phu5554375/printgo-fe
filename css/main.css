@@ -1318,6 +1318,12 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     font-family: TUV-Montserrat-Bold;
         background-size: 100% 71%;
 }
+.title-chanxanh-cate {
+    background: url(../img/chan-xanh2.png) no-repeat;
+    font-family: TUV-Montserrat-Bold;
+    background-size: 119% 67%;
+
+}
 .title-chanxanh {
     background: url(../img/chan-xanh.jpg) no-repeat;
     font-family: TUV-Montserrat-Bold;
@@ -2152,7 +2158,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
       padding: 1px 35px 41px 48px;
 }
 .ht-news-card-list .ht-news-card .news-meta{
-        padding: 17px 7px 16px 0px;
+    padding: 12px 0px 8px 0px;
     text-align: left;
     border-bottom: 1px solid #ccc;
     width: 69%;
@@ -7760,4 +7766,27 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
       width: 200px;
     float: right;
     margin: 22px -4px;
+}
+.next-product-cate{
+    display: flex;
+    justify-content: center;
+    margin: 28px 0px 0px;
+}
+.next-product-cate li a{
+  background: #fff;
+  border: 0;
+  border-radius: 50%;
+  color: #ccc;
+}
+.next-product-cate > .active > a{
+      color: #000;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    border-radius: 0;
+}
+.next-product-cate > li:first-child > a, .next-product-cate > li:first-child > span{
+    margin-left: 0;
+    border-radius: 50%;
+    color: #ccc;
+    border: 1px solid #ccc;
 }
