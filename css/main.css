@@ -1726,11 +1726,10 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     text-transform: uppercase;
 }
 .btn-pro-detail {
-    margin-top: -5px;
+     margin-top: 28px;
     float: right;
     font-weight: 600;
-    right: 0px;
-    position: absolute;
+    margin-right: -8px;
     background: #fff000;
     color: #000;
     text-transform: uppercase;
@@ -3653,7 +3652,7 @@ top: 0;
     font-size: 13px;
 }
 #product-dx .ht-product-card{
-    margin: 0px 2px;
+    margin: 0px 4px;
 }
 
 #product-dx .owl-carousel .owl-nav .owl-next {
@@ -6281,7 +6280,7 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
     background: #fd5b4e;
     color: #fff;
     text-transform: uppercase;
-    margin: 35px 10px 24px 0px;
+    margin: 28px 10px 24px 0px;
     border-radius: 28px;
     font-size: 15px;
     height: 42px;
