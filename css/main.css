@@ -335,7 +335,9 @@ textarea { max-width: 100%; }
 textarea.form-control { height: auto; border-radius: 6px; }
 
 input:focus, select:focus, textarea:focus { outline: none !important; }
-
+.form-control.form-radius{
+  border-radius: 20px;
+}
 .form-group { position: relative; margin-bottom: 12px; }
 
 .form-control { display: block; width: 100%; height: 34px; padding: 6px 8px; line-height: 20px; vertical-align: top;
@@ -1621,9 +1623,6 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     border: 0;
 }
 .search-mb{
-  display: none;
-}
-.search-box{
   display: none;
 }
 
@@ -4528,7 +4527,9 @@ margin-top: -25px; }
     font-weight: 700;
     line-height: 56px;
     margin-top: 0px;
-    color: #4b4b4b;}
+    color: #4b4b4b;
+    z-index: 10;
+  }
 .ht-user-review-card .reviews-by-user-list .single-review .user-avatar img:before{ background: #ccc; content: ""; }
 .single-action {
     display: inline-block;
@@ -7454,26 +7455,6 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
 .wait-eduser .icon-wait-btn{
   margin-right: 3px;
 }
-.table-responsive .product-detail {
-    min-height: 85px;
-    width: 282px;
-}
-.table-responsive .product-image {
-    width: 90px;
-    height: 90px;
-    background: #fff;
-    float: left;
-    margin-right: 15px;
-}
-.table-responsive .product-image .p-image {
-    height: 90px;
-    width: 90px;
-    background: #fff;
-}
-.table-responsive .product-image .p-image img{
-    height: 100%;
-    object-fit: cover;
-}
 .table-responsive .product-detail .product-info {
     display: inline-block;
     vertical-align: middle;
@@ -7819,11 +7800,29 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
   border: 0;
 }
 .pay-ment{
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04)
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
 }
 .pay-ment .input-group .form-control{
   width: 100%;
+  border-radius: 20px;
 }
 .pay-ment .input-group {
   width: 100%;
 }
+.pay-ment .payment-form .btn-payment6{
+  border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 10px;
+}
+.pay-ment .payment-form{
+    padding: 10px 40px;
+}
+.slup-dashboard .left-slup .seller-overview-profile{
+    border: 1px solid #cccccc63;
+    padding: 7px;
+    border-radius: 10px;
+}
+

@@ -1330,7 +1330,10 @@ ul.slick-dots{ opacity: 0;}
 .search-mb ul.list-unstyled li a .ht-icon i {
     margin: 7px 7px 2px 7px;
 }
-.search-box.active {
+.product-z2 .ht-product-card.on-list-05-column{
+    width: 100%;
+}
+/*.search-box.active {
     display: block;
     opacity: 1;
 }
@@ -1377,7 +1380,7 @@ ul.slick-dots{ opacity: 0;}
     vertical-align: top;
     line-height: 30px;
     font-size: 15px;
-}
+}*/
 .search-form .search-submit {
     display: block;
     position: absolute;
@@ -1606,10 +1609,7 @@ ul.slick-dots{ opacity: 0;}
     height: 76px;
     background-size: contain;
 }
-.btn-cmt{
-    width: 100%;
 
-}
 .key-fo .text-left{
     text-align: center;
 }
@@ -1621,6 +1621,10 @@ ul.slick-dots{ opacity: 0;}
 }
 .left-content-fe .text-content img{
     object-fit: contain;
+}
+.container{
+    padding-left: 6px;
+    padding-right: 6px;
 }
 }
 /*end mobile*/
