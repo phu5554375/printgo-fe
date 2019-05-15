@@ -337,6 +337,7 @@ textarea.form-control { height: auto; border-radius: 6px; }
 input:focus, select:focus, textarea:focus { outline: none !important; }
 .form-control.form-radius{
   border-radius: 20px;
+  padding: 16px;
 }
 .form-group { position: relative; margin-bottom: 12px; }
 
@@ -710,6 +711,7 @@ ul.ht-tags-list-inline li a:hover { opacity: .8; }
 .ht-product-card-slick .ht-product-card { margin: 0; }
 
 .ht-news-card { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px dotted #eaeaea; }
+.ht-news-card .card-content .btn{color: #fff}
 .ht-news-card .card-content { padding: 12px 0 0; }
 @media (min-width: 768px) { .ht-news-card .card-content { padding: 2px 0 0; } }
 .ht-news-card .news-title { margin: 0 0 6px; padding: 0; line-height: 24px; font-size: 18px; }
@@ -7825,4 +7827,8 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
     padding: 7px;
     border-radius: 10px;
 }
+.dropdown-search {
+  display: none;
+}
+
 

@@ -1176,6 +1176,7 @@
     font-size: 16px;
     height: 36px;
     width: 38px;
+    display: none;
 }
 #siteFooter .footer-bottom .about-content p{
     text-align: justify;
@@ -1626,5 +1627,44 @@ ul.slick-dots{ opacity: 0;}
     padding-left: 6px;
     padding-right: 6px;
 }
+.pl-title-cart{
+    background-size: 77% 88%;
+}
+.dropbtn-search {
+      background-color: #ffdb4a;
+    color: black;
+    padding: 7px 10px 9px 10px;
+    font-size: 16px;
+    margin: 5px 3px 0px 0px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dropdown-search {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-search {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.dropdown-content-search a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-search a:hover {background-color: #ddd;}
+
+.show-ser {display: block;}
 }
 /*end mobile*/

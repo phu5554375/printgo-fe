@@ -141,7 +141,7 @@
 				
 				<div class="container">
 					<div class="row">
-				
+					
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						
 				<div class="category">
@@ -150,7 +150,7 @@
 							<li class="category">
 							<a class="list-title toggle-menu-item" id="btn-cate" onclick="toggleMenu()"><i class="fa fa-bars"></i>
 								<span class="cate-xo">Danh mục</span> sản phẩm</a>
-							<ul class="col-md-3 col-xs-6 ul-lev2" style="display: block;">
+							<!-- <ul class="col-md-3 col-xs-6 ul-lev2" style="display: block;">
 								
 								<li class="site-nav-icon top-menu1">
 									<a class="nav-item" href="#"> <span>Danh thiếp</span> <i class="fa fa-caret-right"></i></a>
@@ -209,7 +209,7 @@
 									<li class="btn-all"><a href=""> xem tất cả <img src="img/icon/icon-h.jpg"></a>
 									
 								</li>
-							</ul>
+							</ul> -->
 						</li>
 						</ul>
 						</div>
@@ -228,18 +228,24 @@
 	
 								</div>
 							</div>
-
+								<div class="dropdown-search">
+								  <button onclick="myFunction()" class="dropbtn-search"><i class="fa fa-search"></i></button>
+								  <div id="myDropdown-search" class="dropdown-content-search">
+								    <form action="/action_page.php">
+								      <input type="text" placeholder="Tìm kiếm.." name="search">
+								      <button type="submit"><i class="fa fa-search"></i></button>
+								    </form>
+								  </div>
+								</div>
 					
-					
-					
-					<div class="cart-tab">
-						<div class="navbar-action">
-                        <a href="" class="btn--create-new-shop">
-                            <img src="img/icon/cart.jpg"> <span class="text-heds">Đơn hàng</span>
-                            <span class="action-badge-count">0</span>
-                        </a>
-                    </div>
-					</div>
+							<div class="cart-tab">
+								<div class="navbar-action">
+		                        <a href="" class="btn--create-new-shop">
+		                            <img src="img/icon/cart.jpg"> <span class="text-heds">Đơn hàng</span>
+		                            <span class="action-badge-count">0</span>
+		                        </a>
+		                    </div>
+							</div>
 
 					<div class="cart-tab1">
 						<ul class="album-list-scroll">
@@ -249,25 +255,23 @@
 						<form id="form-upload" action="" method="post" enctype="multipart/form-data">
 
                         <div class="print-n">
-						<label class="add-attachment-btn btn ht-btn ht-btn-grey btn-xs"><input type="file" class="hidden">
+						<label class="add-attachment-btn btn ht-btn ht-btn-grey btn-xs">
+							<input type="file" class="hidden">
 							<span><i class="fa fa-print"></i> <span class="text-heds">in ngay</span></span>
-												</label>
+						</label>
   						
-						</div></form>
-												
+						</div>
+						</form>						
 					</div>
 				</li>
-				</ul>
-					</div>
-				</div>
-						
-					</div>
-					
-				</div>
-				</div>	
-			</div>
-			
-		</header>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+</div>	
+</div>	
+</header>
 
 		<div id="siteContent">
 					<div id="slide">
@@ -376,16 +380,13 @@
 							</div>
 							<p class="title-lv3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 							
-							<a href="/collections/all" class="btn-page-primary" title="Mua ngay"> <span>xem chi tiết</span><i class="fa fa-chevron-right"></i> </a>
+							<a href="" class="btn-page-primary" title="Mua ngay"> <span>xem chi tiết</span><i class="fa fa-chevron-right"></i> </a>
 						</div>
 					</div>
-								</div>
-								</div>
-								
-								
-							
-							</div>
 					</div>
+				</div>
+			</div>
+		</div>
 
 			<div class="container">
 				<div class="ht-mgt24 ht-pdt16 product-z1">
@@ -564,9 +565,6 @@
                                             </div>
 									</div>
 								</div>
-								
-								
-								
 							</div>
 						</div>
 					</div>
@@ -1981,6 +1979,25 @@ và số</i></p>
 			checkWindowSize();
 		});
 </script>
+<script>
 
+function myFunction() {
+  document.getElementById("myDropdown-search").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn-search')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content-search");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show-ser')) {
+        openDropdown.classList.remove('show-ser');
+      }
+    }
+  }
+}
+</script>
 </body>
 </html>

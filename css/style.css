@@ -17,7 +17,7 @@
 
 }
 .tab_wrapper > ul li {
-  float: left;
+    float: left;
     cursor: pointer;
     list-style: none;
     padding: 8px 9px;
