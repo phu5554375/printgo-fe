@@ -1245,15 +1245,15 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
 }
 
 .ht-product-card .product-detail .pro-name a {
-        display: inline-block;
+    display: inline-block;
     line-height: 18px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     color: #333;
-    min-height: 36px;
+    min-height: 22px;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
 }
 
@@ -2047,12 +2047,12 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     float: left;
 }
 .product-z1 .ht-product-card.home-05-column {
-    margin-bottom: 19px;
+    margin-bottom: 26px;
     width: 31.333333%;
     float: left;
 }
 .product-z2 .ht-product-card.on-list-05-column {
-    margin-bottom: 19px;
+    margin-bottom: 26px;
     width: 31.333333%;
     float: left;
 }

@@ -104,7 +104,7 @@ $('#productCarousel1').owlCarousel({
   	dotData: false,
   	rewind: true,
   	autoplay: true,
-  	autoplayTimeout: 40000,
+  	autoplayTimeout: 4000,
   	autoplayHoverPause: false,
   });
 $("#bannerCarousel.owl-carousel.show-04-items, #newsCarousel.owl-carousel.show-04-items").owlCarousel({
