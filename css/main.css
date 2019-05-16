@@ -1223,7 +1223,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     border-top: 1px solid transparent;
 }
 .product-list-one {
-    margin-top: -10px;
+    margin-top: -6px;
 }
 
 .ht-product-card .product-image .image-wrap {
@@ -1728,10 +1728,13 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     text-transform: uppercase;
 }
 .btn-pro-detail {
-     margin-top: 28px;
-    float: right;
+        margin-top: 28px;
+
+    right: 0;
+    top: 250px;
+    position: absolute;
     font-weight: 600;
-    margin-right: -8px;
+    /* margin-right: -8px; */
     background: #fff000;
     color: #000;
     text-transform: uppercase;
@@ -4333,7 +4336,7 @@ margin-top: -25px; }
   margin-bottom: 15px; 
 }
 .tt-productdetail .head-productdetail .p-name{ 
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700; 
   color: #000;
   line-height:21px; 
@@ -4900,6 +4903,9 @@ margin-right: 5px;
   position: relative;
   text-align: center;
   line-height: 29px;
+}
+.btn-cateall a{
+  color: #000;
 }
 .btn-cateall .btn-cate-all{
       color: #000;
@@ -7802,7 +7808,7 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
   border: 0;
 }
 .pay-ment{
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.17);
   border-radius: 10px;
 }
 .pay-ment .input-group .form-control{

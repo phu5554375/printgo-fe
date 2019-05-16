@@ -1395,6 +1395,7 @@ ul.slick-dots{ opacity: 0;}
     line-height: 30px;
     font-size: 15px;
 }*/
+
 .search-form .search-submit {
     display: block;
     position: absolute;
@@ -1417,9 +1418,8 @@ ul.slick-dots{ opacity: 0;}
     margin: 12px 0px 14px 0px;
 }
 .banner-item .text-banner.align-left .title-lv3{
-    padding: 0;
+    padding: 0px 35px 0px 0px;
 }
-
 .banner-item .text-banner.align-left{
     left: 22px;
     top: 28px;
@@ -1709,6 +1709,12 @@ ul.slick-dots{ opacity: 0;}
 #search-mobile .ht-modal-content .input-group{
     border-bottom: 2px solid #fff;
     color: #fff;
+}
+.btn-pro-detail{
+        top: 174px;
+}
+.background-avt{
+    margin-left: -4px;
 }
 }
 /*end mobile*/
