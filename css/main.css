@@ -913,7 +913,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
 #siteHeader .sh_main-menu ul.control-action > li > a .ht-label {
     display: block;
     font-weight: 600;
-    width: 113px;
+    width: 85px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -932,7 +932,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
 }
 #siteHeader .main-navbar ul.list-level-01 > li > a {
     display: block;
-    padding: 10px 8px;
+    padding: 10px 6px;
     line-height: 20px;
     font-size: 12px;
     text-transform: uppercase;
@@ -5528,7 +5528,7 @@ ul.lv2-productdesign li.item0lv2 a {
       margin: 5px 0px 0px 37px;
 }
 #siteHeader .sh_main-menu ul.head-login{
-  margin: 0px 12px;
+      margin: 0px 4px 0px 14px;
 }
 .content-enduser .ht-product-card-list{
 

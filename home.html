@@ -35,7 +35,7 @@
 			<div class="sh_main-menu cd-auto-hide-header">
 				<div class="container">
 					<div class="sh_main-menu_wrapper">
-						<div class="col-md-2 col-xs-2">
+						<div class="col-md-3 col-xs-3">
 						<h1 class="sh_logo">
 							<a href="#">
 								<span>printgo</span>
@@ -45,7 +45,7 @@
 					</div>
 
 
-					<div class="col-md-10 col-sm-10 collapse navbar-collapse" id="siteHeaderNavbarCollapse">
+					<div class="col-md-9 col-sm-9 collapse navbar-collapse" id="siteHeaderNavbarCollapse">
 
 						<div class="col-md-7 nav-pl main-navbar">
 							<ul class="list-level-01 list-unstyled">
@@ -90,9 +90,7 @@
 											<span class="ht-icon">
 												<img src="img/icon/1.1_09.jpg">
 											</span>
-											<span class="ht-label ht-oneline">phule@gmail.com
-												
-											</span>
+											<span class="ht-label ht-oneline">Đăng nhập</span>
 										</a>
 										
 									</li>
@@ -229,13 +227,7 @@
 								</div>
 							</div>
 								<div class="dropdown-search">
-								  <button onclick="myFunction()" class="dropbtn-search"><i class="fa fa-search"></i></button>
-								  <div id="myDropdown-search" class="dropdown-content-search">
-								    <form action="/action_page.php">
-								      <input type="text" placeholder="Tìm kiếm.." name="search">
-								      <button type="submit"><i class="fa fa-search"></i></button>
-								    </form>
-								  </div>
+								  <a data-toggle="modal" data-target="#search-mobile" class="se-mobile"><i class="fa fa-search"></i></a>
 								</div>
 					
 							<div class="cart-tab">
@@ -1624,8 +1616,30 @@
 			</section>
 		</div>
 	</div>
+	<!-- tìm kiếm -->
+	<div class="modal modal-ser fade" id="search-mobile" tabindex="-1" role="dialog">
+	  <div class="modal-dialog modal-dialog-lg" role="document">
+		  <div class="ht-modal-content">
+		  	<!-- <span class="ht-close-modal" data-dismiss="modal"><i class="fa fa-close"></i></span> -->
+		  	
+		  	<div class="ht-modal-body">
+		  				<div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="  search-query form-control" placeholder="Tìm kiếm sản phẩm" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+		  	</div>
+		  </div>
+	  </div>
+	</div>
 	<!-- thêm địa chỉ -->
 	<!-- Login -->
+
 	<div class="modal fade" data-backdrop="static" id="add-address" tabindex="-1" role="dialog">
 	  <div class="modal-dialog modal-dialog-lg" role="document">
 		  <div class="ht-modal-content">
@@ -1832,10 +1846,10 @@ và số</i></p>
 							  
 							</form>
 						</div>
-</div>
+						</div>
 
-</div>
-</div>
+						</div>
+						</div>
     
 						</div>
 					</div>
