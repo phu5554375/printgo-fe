@@ -201,13 +201,18 @@
 
 /*table*/
 @media (min-width: 768px) and (max-width: 991px) {
+.ht-product-card .product-detail .pro-name{
+    width: 168px;
+}
 .product-z1 .ht-product-card.home-05-column{
     display: flex;
     width: 100%;
+   margin-bottom: 11px;
 }
 .product-z2 .ht-product-card.on-list-05-column{
     display: flex;
     width: 100%;
+    margin-bottom: 11px;
 }
 #news-detail-z1 .upload-cate .item-up {
     background: url(../img/2.1_03.png) no-repeat;

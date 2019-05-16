@@ -3510,7 +3510,8 @@ top: 0;
 .news-meta span{ 
     margin-right: 30px; 
 }
-#banner-cate{ 
+
+.up-btn-cate{ 
     padding: 16px 14px 95px 15px; 
 }
 #banner-cate .upload-cate .item-up {
@@ -7590,7 +7591,7 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
   margin: 0;
 }
 .zone3-destina{
-  padding: 0px 0px 28px;
+  padding: 20px 0px 28px;
 }
 .title-destination .input-sm{
   height: 40px;
