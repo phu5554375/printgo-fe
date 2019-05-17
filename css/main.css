@@ -368,7 +368,7 @@ ul.slick-dots li.slick-active { background-color: #ffdb4a; }
 @media (min-width: 992px) { #siteHeader .sh_main-menu .sh_logo a { max-width: 320px; } }
 #siteHeader .sh_main-menu .sh_logo span { display: block; width: 0; height: 0; visibility: hidden; position: absolute; top: 0; left: 0; }
 #siteHeader .sh_main-menu .sh_logo img { -moz-transition: opacity 0.1s ease-in-out; -o-transition: opacity 0.1s ease-in-out; -webkit-transition: opacity 0.1s ease-in-out; transition: opacity 0.1s ease-in-out; display: block; height: 40px; width: auto; max-width: none; }
-@media (min-width: 992px) { #siteHeader .sh_main-menu .sh_logo img { height: 53px; } }
+@media (min-width: 992px) { #siteHeader .sh_main-menu .sh_logo img { height: 45px; margin:3px; } }
 #siteHeader .sh_main-menu .sh_logo a img:hover { opacity: .85; }
 #siteHeader .sh_main-menu .nav-pl .nav-pl_wrapper { display: none; padding: 0 48px 0 120px; text-align: right; }
 #siteHeader .sh_main-menu .sh_toggle-btn { flex: 0 0 auto; margin-right: -12px; }
@@ -1097,7 +1097,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     border-top: 1px solid transparent;
 }
 .product-list-one {
-    margin-top: -6px;
+    margin-top: -4px;
 }
 
 .ht-product-card .product-image .image-wrap {
@@ -2932,6 +2932,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
 .section-review .content-item h3 {
     font-weight: 600;
     font-size: 1.28571em;
+        margin: 6px 0px;
 }
 .section-review .content-item .title-i1{
   color: #1291d2
@@ -3567,7 +3568,7 @@ top: 0;
     width: 97%;
 }
 #product-dx .owl-carousel .owl-nav .owl-next {
-    right: 173px;
+    right: 190px;
     position: absolute;
     margin-left: -34px;
     top: -44px;
@@ -7588,7 +7589,7 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
     background: url(../img/modal1.png) no-repeat;
     padding: 27px;
     background-size: 100% 87%;
-    margin-top: -28px;
+    margin-top: -19px;
 }
 .ht-news-leftct .panel-group {
     margin-bottom: 65px;
