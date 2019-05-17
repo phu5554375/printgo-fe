@@ -1721,5 +1721,11 @@ ul.slick-dots{ opacity: 0;}
 .background-avt{
     margin-left: -4px;
 }
+#siteHeader .sh_main-menu ul.head-login{
+    margin: 0;
+}
+.print-n .add-attachment-btn .fa-print{
+    margin: 0;
+}
 }
 /*end mobile*/
