@@ -1731,7 +1731,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
         margin-top: 28px;
 
     right: 0;
-    top: 250px;
+    top: 240px;
     position: absolute;
     font-weight: 600;
     /* margin-right: -8px; */
@@ -1795,8 +1795,8 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
 }
 .navbar-action .btn--create-new-shop .action-badge-count {
     display: inline-block;
-    line-height: 18px;
-    padding: 0 4px;
+    line-height: 16px;
+    padding: 0 5px;
     font-size: 11px;
     font-weight: 700;
     color: #000;
@@ -2832,7 +2832,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     height: 34px;
     margin-top: 9px;
     line-height: 19px;
-    padding: 5px 17px;
+    padding: 5px 15px;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -6357,7 +6357,7 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
 .check-out-section .btn-radius{ 
     border-radius: 25px; height: 38px; }
 .design-page{
-    padding-bottom: 20px;
+   height: 382px;
 }
 .design-page .owl-carousel .owl-nav .owl-next{
     right: 35px;
@@ -7721,7 +7721,7 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
 }
 .cart-shoping .cart-detail {
     min-height: 85px;
-        width: 223px;
+       width: 195px;
 }
 
 .cart-image {
@@ -7759,7 +7759,7 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
     color: #333;
 }
 .dg-cart{
-  width: 182px;
+  width: 115px;
     text-align: left;
     vertical-align: top;
 }
