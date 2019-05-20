@@ -1727,5 +1727,9 @@ ul.slick-dots{ opacity: 0;}
 .banner-carousel{
     height: 259px;
 }
+.pad-15{
+    padding: 0;
+    margin: 0;
+}
 }
 /*end mobile*/

@@ -2361,7 +2361,9 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
 .news-carousel .owl-nav .owl-next {
   width: 24px;
 }
-
+.eduser-album .ht-product-card{
+  background: none;
+}
 /* line 95, ../scss/_carousel.scss */
 .photo-carousel {
   margin-top: 8px;
