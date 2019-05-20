@@ -1599,7 +1599,7 @@ ul.slick-dots{ opacity: 0;}
    color: #fff;
 }
 .product-z1 .ht-product-card.home-05-column{
-       width: 100%;
+    width: 100%;
     float: left;
     margin: 0px;
     padding-bottom: 9px;
@@ -1616,7 +1616,7 @@ ul.slick-dots{ opacity: 0;}
     padding-bottom: 19px;
 }
 .title-product-news{
-        padding: 73px 0px 24px;
+    padding: 73px 0px 24px;
 }
 #content-news-detail .ht-card{
     padding: 16px 0px;
@@ -1627,7 +1627,6 @@ ul.slick-dots{ opacity: 0;}
     height: 76px;
     background-size: contain;
 }
-
 .key-fo .text-left{
     text-align: center;
 }
@@ -1636,6 +1635,7 @@ ul.slick-dots{ opacity: 0;}
 }
 #product-dx .ht-product-card{
     margin: 0;
+    width: 100%;
 }
 .left-content-fe .text-content img{
     object-fit: contain;
