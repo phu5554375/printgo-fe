@@ -1655,7 +1655,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     margin: 0 !important;
 }
 .search-tab .search-form #search_text {
-    width: 540px;
+    width: 547px;
     line-height: 40px;
     padding: 15px 20px;
     font-size: 14px;
@@ -6243,7 +6243,7 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
     background-position: center;
     background-repeat: no-repeat;
     display: block ;
-    z-index: 1;
+    z-index: 0;
     position: absolute;
     width: 240px;
     height: 339px;

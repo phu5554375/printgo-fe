@@ -1731,5 +1731,8 @@ ul.slick-dots{ opacity: 0;}
     padding: 0;
     margin: 0;
 }
+.zone-4 .home-print-content .print-news-list{
+    padding: 0;
+}
 }
 /*end mobile*/
