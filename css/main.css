@@ -2363,6 +2363,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
 }
 .eduser-album .ht-product-card{
   background: none;
+  margin-bottom: 20px;
 }
 /* line 95, ../scss/_carousel.scss */
 .photo-carousel {
