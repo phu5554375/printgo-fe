@@ -1020,11 +1020,10 @@
     top: 43%;
 }
 #product-dx .owl-carousel .owl-nav .owl-next {
-    top: -10%;
-    right: 39px;
-    background: #fff;
-    color: #000;
+    top: 43%;
+    right: 0;
 }
+
 .owl-carousel .owl-dots .owl-dot span {
     width: 8px;
     height: 8px;
@@ -1534,6 +1533,10 @@ ul.slick-dots{ opacity: 0;}
 }
 
 #product-dx .owl-carousel .owl-nav .owl-prev{
+    color: #fff;
+    background-color: #2dbeb3;
+}
+#product-dx .owl-carousel .owl-nav .owl-next{
     color: #fff;
     background-color: #2dbeb3;
 }
