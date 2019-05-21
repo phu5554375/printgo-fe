@@ -414,10 +414,10 @@
 .cate-slidebar-left .ht-sidebar{
     margin-top: 30px;
 }
-#banner-cate .upload-cate .item-up{
+/*#banner-cate .upload-cate .item-up{
     height: 140px;
     margin-bottom: 20px;
-}
+}*/
 .vertical-navbar .list-unstyled{
     width: 100%;
 }
@@ -961,10 +961,10 @@
     width: 100%;
  }
 .single-app-card .avt-cate-cover img{ width: 100%; }
-#banner-cate .upload-cate .item-up{
+/*#banner-cate .upload-cate .item-up{
     height: 62px;
     margin-bottom: 10px;
-}
+}*/
 .display-none{
     display: none !important;
 }
@@ -1733,6 +1733,10 @@ ul.slick-dots{ opacity: 0;}
 }
 .zone-4 .home-print-content .print-news-list{
     padding: 0;
+}
+.vertical-navbar .ul-lev2{
+    position: relative;
+        margin-bottom: 20px;
 }
 }
 /*end mobile*/

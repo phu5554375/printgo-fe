@@ -7770,7 +7770,12 @@ ul.ht-pagination li.active a, ul.ht-pagination li.active span {
     border-radius: 10px;
 }
 .dropdown-search {
-  display: none;
+   display: none;
 }
-
+.pl-mgt20{
+   padding-top: 20px;
+}
+.pd-25{
+    padding: 27px 10px 0px 16px;
+}
 
