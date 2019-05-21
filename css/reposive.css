@@ -1138,10 +1138,10 @@
     margin-left: 26px;
 }
 .cart-tab{
-    margin: 0; 
+    margin: 0 3px; 
  }
 .search-tab{
-    padding: 0
+    padding: 0;
 }
 .banner-item .text-banner.align-left .title-lv2{ 
     font-size: 25px;
@@ -1247,7 +1247,7 @@
 
 .banner-item{ 
     width: 100% ;
-    background: #fff;
+
 }
 .title_module_main .inner_title .des{
     font-size: 11px;

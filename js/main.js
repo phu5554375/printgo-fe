@@ -22,7 +22,6 @@ $('#bannerCarousel').owlCarousel({
 });
 $('#productCarousel').owlCarousel({
     loop:true,
- 
     navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
     responsiveClass:true,
     responsive:{
@@ -64,7 +63,6 @@ $('#productCarousel-designpage').owlCarousel({
 });
 $('#productCarousel1').owlCarousel({
     loop:true,
-   
     navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
     responsiveClass:true,
     responsive:{
@@ -83,8 +81,6 @@ $('#productCarousel1').owlCarousel({
         }
     }
 });
-
-
 	// Home Carousel
   $("#homeBannerCarousel.owl-carousel").owlCarousel({
   	items: 1,
@@ -129,7 +125,6 @@ $("#bannerCarousel.owl-carousel.show-04-items, #newsCarousel.owl-carousel.show-0
     rewind: true,
     autoplay: false,
   });
-  
   $("#productCarousel.owl-carousel.show-05-items,product-dx, #singleProductPhotoCarousel.owl-carousel.show-04-items").owlCarousel({
     items: 5,
     margin: 0,
@@ -141,8 +136,6 @@ $("#bannerCarousel.owl-carousel.show-04-items, #newsCarousel.owl-carousel.show-0
     rewind: true,
     autoplay: false,
   });
-
-
   // Number Input restyle
   $('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
   $('.quantity').each(function() {
@@ -152,7 +145,6 @@ $("#bannerCarousel.owl-carousel.show-04-items, #newsCarousel.owl-carousel.show-0
       btnDown = spinner.find('.quantity-down'),
       min = input.attr('min'),
       max = input.attr('max');
-
     btnUp.click(function() {
       var oldValue = parseFloat(input.val());
       if (oldValue >= max) {
@@ -176,8 +168,6 @@ $("#bannerCarousel.owl-carousel.show-04-items, #newsCarousel.owl-carousel.show-0
     });
 
   });
-
-
 });
 // --
   // product photo album
@@ -189,11 +179,6 @@ $("#bannerCarousel.owl-carousel.show-04-items, #newsCarousel.owl-carousel.show-0
     var dataPhotoView = $(this).find('img').attr('data-photo-view');
     $('#spProductPhotoView').attr('src',dataPhotoView);
   })
-
-
-
-
-
   // slick
   // -------------------------
   var itemSlickOptions = { 
