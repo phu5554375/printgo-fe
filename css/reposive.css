@@ -1745,5 +1745,37 @@ ul.slick-dots{ opacity: 0;}
 .navbar-action .btn--create-new-shop .fa-cart-plus{
     margin-right: 0;
 }
+#banner-cate .upload-cate .item-up{
+    padding: 0px 15px;
+
+}
+#banner-cate .upload-cate .item-up .up-cate-pri1 h3{
+    font-size: 14px;
+}
+#banner-cate .upload-cate .item-up .up-cate-pri1 p{
+    font-size: 10px;
+}
+.upload-cate{
+    margin-bottom: 10px;
+}
+
+#banner-cate .create-cate .create-file .create-cate-pri1 h3{
+    font-size: 14px;
+}
+#banner-cate .create-cate .create-file .create-cate-pri1 p{
+    font-size: 10px;
+}
+#banner-cate .create-cate .create-file{
+    padding: 0px 15px;
+
+}
+.mar-pad-0{
+    margin: inherit;
+    padding: inherit;
+}
+.row{
+        margin-left: -5px;
+    margin-right: -5px;
+}
 }
 /*end mobile*/
