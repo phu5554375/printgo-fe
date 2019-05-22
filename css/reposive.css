@@ -1151,8 +1151,9 @@
     left: 0;
 }
 .navbar-action .btn--create-new-shop .action-badge-count{
-    line-height: 21px;
-    padding: 0 6px;
+    line-height: 17px;
+    padding: 0 3px;
+    margin: 3px 0px;
 }
  .banner-pro-tow .title-lv5{
     line-height: 23px;
@@ -1201,7 +1202,7 @@
     text-align: justify;
 }
 .navbar-action .btn--create-new-shop {
-    margin: 6px 3px 0px;
+    margin: 6px 4px 0px;
 
 }
 .bar-mid{
@@ -1740,6 +1741,9 @@ ul.slick-dots{ opacity: 0;}
 .vertical-navbar .ul-lev2{
     position: relative;
         margin-bottom: 20px;
+}
+.navbar-action .btn--create-new-shop .fa-cart-plus{
+    margin-right: 0;
 }
 }
 /*end mobile*/
