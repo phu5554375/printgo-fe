@@ -1169,9 +1169,7 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     font-weight: 500;
     color: #000;
 }
-.product_actions {
-    margin-top: 10px;
-}
+
 .title-chanxanh2 {
     background: url(../img/chan-xanh2.png) no-repeat;
     font-family: TUV-Montserrat-Bold;
@@ -4862,6 +4860,7 @@ margin-right: 5px;
   position: relative;
   text-align: center;
   line-height: 29px;
+  padding: 0px 0px 10px;
 }
 .btn-cateall a{
   color: #000;
