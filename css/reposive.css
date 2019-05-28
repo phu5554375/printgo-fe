@@ -204,16 +204,7 @@
 .ht-product-card .product-detail .pro-name{
     width: 168px;
 }
-.product-z1 .ht-product-card.home-05-column{
-    display: flex;
-    width: 100%;
-   margin-bottom: 11px;
-}
-.product-z2 .ht-product-card.on-list-05-column{
-    display: flex;
-    width: 100%;
-    margin-bottom: 11px;
-}
+
 #news-detail-z1 .upload-cate .item-up {
     background: url(../img/2.1_03.png) no-repeat;
     width: 101%;
@@ -481,8 +472,7 @@
 .product-filter-nav ul.filter-list{
     display: none;
 }
-.ht-product-card.on-list-05-column{
-    width: 100%;
+.footer-promotion .single-policy{
     display: flex;
 }
 #siteContent .product-filter-nav { 
@@ -617,7 +607,7 @@
 
 } 
 /*mobile*/
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 .product-news-ct .product-news-detail{
     margin: 0;
 }
